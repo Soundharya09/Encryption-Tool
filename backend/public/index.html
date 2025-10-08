@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🔐 Basic Encryption Tool</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🔐 Basic Encryption Tool</h1>
+      <button id="darkModeToggle">🌓</button>
+    </header>
+
+    <section id="auth">
+      <h2>Register</h2>
+      <input id="reg-username" placeholder="Username" />
+      <input id="reg-password" type="password" placeholder="Password" />
+      <button onclick="register()">Register</button>
+
+      <h2>Login</h2>
+      <input id="login-username" placeholder="Username" />
+      <input id="login-password" type="password" placeholder="Password" />
+      <button onclick="login()">Login</button>
+    </section>
+
+    <section id="tool" style="display:none;">
+      <h2>Encrypt/Decrypt</h2>
+      <textarea id="inputText" placeholder="Enter text here"></textarea>
+      <input id="encPassword" type="password" placeholder="Encryption Password" />
+      <button onclick="encryptText()">Encrypt</button>
+      <button onclick="decryptText()">Decrypt</button>
+      <textarea id="outputText" placeholder="Result will appear here..."></textarea>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
