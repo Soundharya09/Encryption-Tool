@@ -10,7 +10,7 @@ This project helps users protect sensitive information and understand the basics
 - Easy-to-use interface for quick encryption tasks.
 - Safe storage of encrypted data.
 
-##Technologies Used
+## Technologies Used
 - HTML5
 - CSS3 (with custom styling)
 - JavaScript (Vanilla, using Arrays)
@@ -18,4 +18,4 @@ This project helps users protect sensitive information and understand the basics
 ## How to Use
 Clone the repository:
    ```bash
-   =git clone https://github.com/Soundharya09/Encryption-Tool.git
+   git clone https://github.com/Soundharya09/Encryption-Tool.git
